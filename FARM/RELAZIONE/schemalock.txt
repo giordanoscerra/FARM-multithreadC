@@ -1,0 +1,7 @@
+MASTER.C
+    queue_mtx > termination_mtx 
+    queue_mtx > worker_counter_mtx
+    queue_mtx > end_workers_mtx
+
+WORKER.C
+    queue_mtx > termination_mtx
